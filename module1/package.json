@@ -1,0 +1,14 @@
+{
+  "name": "typescript-module-esnext-demo--module1",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "1.7.0",
+    "rollup-plugin-typescript2": "0.20.1"
+  }
+}

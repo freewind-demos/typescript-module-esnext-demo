@@ -1,9 +1,15 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "demo": "webpack && ts-node dist/bundle.js"
   },
   "devDependencies": {
-    "ts-node": "7.0.1",
-    "typescript": "3.2.2"
+    "ts-loader": "5.3.3",
+    "ts-node": "8.0.3",
+    "typescript": "3.3.4000",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  },
+  "dependencies": {
+    "typescript-module-esnext-demo--module1": "0.1.0"
   }
 }

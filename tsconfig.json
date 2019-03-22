@@ -2,7 +2,8 @@
   "compilerOptions": {
     "strict": true,
     "target": "es6",
-    "module": "commonjs",
+    "module": "esnext",
+    "moduleResolution": "node",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
@@ -11,6 +12,6 @@
     "allowSyntheticDefaultImports": true
   },
   "files": [
-    "hello.ts"
+    "index.ts"
   ]
 }
